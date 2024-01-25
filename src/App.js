@@ -1,10 +1,12 @@
 import "./App.css";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navibar from './Components/Navibar'
 function App() {
   return (
     <div className="App">
-      <h1>🥥</h1>
-      <h1>test 1 by shubham is done</h1>
+      <Navibar/>
+
+      
     </div>
   );
 }
